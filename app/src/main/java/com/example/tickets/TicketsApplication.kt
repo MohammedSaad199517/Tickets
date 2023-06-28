@@ -1,4 +1,8 @@
 package com.example.tickets
 
-import androidx.compose.runtime.Composable
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
+@HiltAndroidApp
+class TicketsApplication : Application() {
+}
